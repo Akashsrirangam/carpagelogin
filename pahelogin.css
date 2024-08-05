@@ -1,0 +1,152 @@
+ body{
+    overflow: hidden;
+}
+.tar1{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+    font-style: italic;
+    font-size: xx-large;
+    font-weight:bolder;
+    color: rgba(240, 101, 20, 0.952);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.tar2{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+    font-style:oblique;
+    font-size:large;
+    color: rgba(182, 73, 118, 0.795);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.one{
+    background-color: burlywood;
+    border:2px solid;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-left: 650px;
+    height: 580px;
+    width: 350px;
+    margin-top: -632px;
+}
+.label1{
+    margin-right: 50px;
+    font-weight: bolder;
+    font-style: initial;
+    font-size: 20px;
+    display: flex;
+    }
+.label2{
+
+    margin-right: 50px;
+    font-weight: bolder;
+    font-style: initial;
+    font-size: 20px;
+    display: flex;
+    }
+button{
+    margin-top: 20px;
+    cursor: pointer;
+    width: 70%;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    font-size: 16px;
+    margin-left: 60px;
+    font-weight: 600;
+    font-style: inherit;
+    background-color:rgb(29, 153, 184) ;
+
+}
+.lab{
+    width: 100%;
+    height: 50px;
+    margin: 30px;
+    margin-top: -40px;
+}
+.lab2{
+    width: 100%;
+    height: 50px;
+    margin: 30px;
+}
+.input1{
+    background-color: #DCA47C;
+    width: 100%;
+    height: 70%;
+    border: none;
+    outline: none;
+    border: 2px;
+    border-radius: 40px;
+    font-weight: 300;
+}
+.input2{
+    background-color: #DCA47C;
+    width: 100%;
+    height: 70%;
+    border: none;
+    outline: none;
+    border: 2px;
+    border-radius: 40px;
+}
+.rem{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 60px;
+}
+.rem a{
+    color: rgb(132, 41, 185);
+    margin-left: 30px;
+    text-decoration: none;
+}
+.rem a:hover{
+    text-decoration:underline;
+    
+}
+.reg{
+    text-align: center;
+    font-weight: 15px;
+}
+.reg p a{
+    text-decoration: none;
+    color:#387F39;
+}
+.reg p a:hover{
+    text-decoration:underline;
+}
+.background img{
+    height: 600px;
+    width: 630px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border: 2px solid;
+}
+.car img{
+    height: 200px;
+    margin-top: -180px;
+    margin-left: 30px;
+    animation-name: trend-animation;
+    position: relative;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes trend-animation
+{
+  from{transform:translateX(5px);}
+  to{transform: translateX(350px);}
+}
+
+
+
+
+
+
+
